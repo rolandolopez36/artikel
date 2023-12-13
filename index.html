@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Articles Learning App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Learn German Articles</h1>
+        <p>Type the correct article for the given noun</p>
+        <div class="question" id="wordContainer"></div>
+        <input type="text" id="userAnswer" placeholder="Type the article here" />
+        <br>
+        <button id="checkAnswer">Check Answer</button>
+        <div class="feedback" id="feedbackContainer"></div>
+        <div id="practiceArea" class="hidden">
+            <p>Write the correct combination 10 times:</p>
+            <ol id="practiceList"></ol>
+            <button id="practiceDone">Done</button>
+        </div>
+    </div>
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
